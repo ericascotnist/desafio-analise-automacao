@@ -17,7 +17,7 @@ Funcionalidade: Buscas no Fake Ecommerce
   @busca_sem_resultados
   Esquema do Cenario: Busca sem resultados
   Quando buscar pelo produto <termo>
-  Então a mensagem <mensagem> deve ser exibida na tela
+  Então a mensagem <mensagem> deve ser exibida na tela de resultados
 
   Exemplos:
     |termo        |mensagem                               |
