@@ -11,3 +11,7 @@ Então("devem ser retornados produtos") do
   expect(@search_page.products.first).to have_name
   expect(@search_page.products.first.name.text).to have_content 'shirt'
 end
+
+Então("a mensagem {string} deve ser exibida na tela") do |string|
+  expect(@search_page.message_bar).to have_content string
+end
