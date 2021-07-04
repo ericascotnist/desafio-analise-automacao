@@ -3,6 +3,7 @@ Before do
   @home_page = Pages::HomePage.new
   @search_page = Pages::SearchPage.new
   @login_page = Pages::LoginPage.new
+  @cart_modal_page = Pages::CartModalPage.new
 end
 
 AfterStep do
