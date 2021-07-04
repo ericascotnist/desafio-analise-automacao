@@ -10,6 +10,6 @@ Funcionalidade: Inserção de produto no carrinho
 
   @adicionar_no_carrinho
   Cenário: Adicionar item ao carrinho
-    Quando buscar pelo produto 'shirt'
-    E seleciono o primeiro item
+    E buscar pelo produto 'shirt'
+    Quando seleciono o primeiro item
     Então o produto é adicionado ao carrinho
