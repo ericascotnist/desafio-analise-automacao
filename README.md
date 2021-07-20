@@ -15,10 +15,6 @@ Instalar as dependências:
 bundle install
 ```
 
-Executar o projeto - teste de carregamento básico:
-```ruby
-bundle exec cucumber -p default -t@buscar_por_termo_valido
-```
 ## Execução dos cenários implementados:
 
 ```ruby
