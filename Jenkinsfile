@@ -6,11 +6,12 @@ pipeline {
             steps {
                 echo 'built'
             }
-            
+        }   
         stage('test') {
             steps {
                 echo 'tested'
             }
+        }
             
         stage('deploy') {
             steps {
